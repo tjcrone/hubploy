@@ -48,6 +48,7 @@ def helm_upgrade(
         'upgrade',
         '--wait',
         '--install',
+        '--force',
         '--timeout', '1200',
         '--namespace', namespace,
         name, chart,
